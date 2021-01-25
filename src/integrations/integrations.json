@@ -155,6 +155,12 @@
     "script": "husky-marketing-planner.js",
     "clone": false
   },
+  "lansweeper.com": {
+    "name": "LanSweeper",
+    "link": "*://lansweeper.com/*/ticket.aspx*",
+    "script": "lansweeper.js",
+    "clone": false
+  },
   "liquidplanner.com": {
     "name": "Liquidplanner",
     "link": "*://*.liquidplanner.com/*",
