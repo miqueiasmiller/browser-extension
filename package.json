@@ -10,7 +10,11 @@
     "clean.build.firefox.dev": "node tools/clean-build-script.js www/firefox.dev/",
     "compile.dev.chrome": "npm run clean.build.chrome.dev && compass compile -c config_chrome.dev.rb && webpack --env.TARGET=chrome.dev --watch",
     "compile.dev.firefox": "npm run clean.build.firefox.dev && compass compile -c config_firefox.dev.rb && webpack --env.TARGET=firefox.dev --watch",
-    "copy.assets": "node tools/copy-assets-from-node-modules.js"
+    "copy.assets": "node tools/copy-assets-from-node-modules.js",
+    "clean.build.chrome.prod": "node tools/clean-build-script.js www/chrome.prod/",
+    "clean.build.firefox.prod": "node tools/clean-build-script.js www/firefox.prod/",
+    "compile.prod.chrome": "npm run clean.build.chrome.prod && compass compile -c config_chrome.prod.rb && webpack --env.TARGET=chrome.prod --mode=production",
+    "compile.prod.firefox": "npm run clean.build.firefox.prod && compass compile -c config_firefox.prod.rb && webpack --env.TARGET=firefox.prod --mode=production"
   },
   "author": "",
   "license": "ISC",

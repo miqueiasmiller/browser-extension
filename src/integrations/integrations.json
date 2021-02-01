@@ -157,9 +157,27 @@
   },
   "lansweeper.com": {
     "name": "LanSweeper",
-    "link": "*://lansweeper.com/*/ticket.aspx*",
+    "link": "*://lansweeper.com/*/ticket.aspx*,*://techhelp.pelicancorp.com/*/ticket.aspx*,*://sweeper.pelicancorp.com/*/ticket.aspx*,*://192.168.4.22/*/ticket.aspx*",
     "script": "lansweeper.js",
     "clone": false
+  },
+  "techhelp.pelicancorp.com": {
+    "name": "LanSweeper",
+    "link": "*://lansweeper.com/*/ticket.aspx*,*://techhelp.pelicancorp.com/*/ticket.aspx*,*://sweeper.pelicancorp.com/*/ticket.aspx*,*://192.168.4.22/*/ticket.aspx*",
+    "script": "lansweeper.js",
+    "clone": true
+  },
+  "sweeper.pelicancorp.com": {
+    "name": "LanSweeper",
+    "link": "*://lansweeper.com/*/ticket.aspx*,*://techhelp.pelicancorp.com/*/ticket.aspx*,*://sweeper.pelicancorp.com/*/ticket.aspx*,*://192.168.4.22/*/ticket.aspx*",
+    "script": "lansweeper.js",
+    "clone": true
+  },
+  "192.168.4.22": {
+    "name": "LanSweeper",
+    "link": "*://lansweeper.com/*/ticket.aspx*,*://techhelp.pelicancorp.com/*/ticket.aspx*,*://sweeper.pelicancorp.com/*/ticket.aspx*,*://192.168.4.22/*/ticket.aspx*",
+    "script": "lansweeper.js",
+    "clone": true
   },
   "liquidplanner.com": {
     "name": "Liquidplanner",
