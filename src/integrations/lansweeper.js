@@ -6,7 +6,7 @@ setTimeout(() => {
 
       link = clockifyButton.createButton({
          description: !!ticketId && !!ticketSubject ? ticketId.innerText + " - " + ticketSubject.innerText : '',
-         projectName: !!ticketType ? ticketType.innerText : '',
+         projectName: !!ticketType ? ticketType.innerText + '[LAN Sweeper]' : '',
          taskName: 'Operations',
          tagNames: ['Ticket LANSweeper']
       });
